@@ -1,0 +1,16 @@
+touch .gitignore - 
+git config --global user.name bipin 
+git config --global user.email bipinchauhan2117@gmial.com
+git init -initilazied git reposetry 
+git add .  :- jis se saar ka saar file thi exclude ho ke from gitignore staging arera me ya gayi
+git commit -m "Initial commit" :- jaye se hi run kiyaa humara commit run hogaya 
+git status #just see
+ssh-keygen -t ed25519 -C "bipinchauhan2117@gmail.com"
+tail <path to id_rsa.pub> #add this key to your github accounnt 
+git remote dd origin <ssh yrl.git>   #project url se rplace karna hai
+git push origin master # apana project git hub phe daal le ke liye use hota hai
+
+
+
+jab kuch add kar naa hai 
+1) 
